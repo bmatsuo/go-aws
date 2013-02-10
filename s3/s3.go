@@ -102,7 +102,6 @@ func (client *Client) Do(req Request) (*http.Response, error) {
 	if err != nil {
 		return nil, err
 	}
-	fmt.Println(hreq)
 	resp, err := client.client.Do(hreq)
 	if err != nil {
 		return nil, err

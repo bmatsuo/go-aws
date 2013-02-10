@@ -1,11 +1,11 @@
-// Does one PUT and one GET against a bucket
+// Does one PUT, one GET, and one DELETE against a bucket
 package main
 
 import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	//"time"
+	"time"
 
 	"github.com/bmatsuo/go-aws"
 	"github.com/bmatsuo/go-aws/s3"
@@ -66,4 +66,13 @@ func main() {
 	defer get.Body.Close()
 	p, err := ioutil.ReadAll(get.Body)
 	fmt.Println(string(p), err)
+	del, err := client.
+		DeleteObject(bucket, object).
+		Exec()
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+	fmt.Println(del.Status())
+	fmt.Println(del.Header)
 }
