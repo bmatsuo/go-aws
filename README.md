@@ -1,6 +1,6 @@
 
 [install go]: http://golang.org/install.html "Install Go"
-[the godoc url]: http://localhost:6060/pkg/github.com/bmatsuo/aws/ "the Godoc URL"
+[the gopkgdoc]: http://go.pkgdoc.org/github.com/bmatsuo/aws/ "the GoPkgDoc URL"
 
 About go-aws
 =============
@@ -27,11 +27,7 @@ Use `go doc` to vew the documentation for go-aws
 
     go doc github.com/bmatsuo/aws
 
-Or alternatively, use a godoc http server
-
-    godoc -http=:6060
-
-and visit [the Godoc URL][]
+or visit [the GoPkgDoc URL][]
 
 
 Author
