@@ -1,6 +1,6 @@
 
 [install go]: http://golang.org/install.html "Install Go"
-[the gopkgdoc url]: http://go.pkgdoc.org/github.com/bmatsuo/aws/ "the GoPkgDoc URL"
+[the gopkgdoc url]: http://go.pkgdoc.org/github.com/bmatsuo/go-aws/ "the GoPkgDoc URL"
 
 About go-aws
 =============
@@ -18,14 +18,14 @@ Prerequisites
 Installation
 -------------
 
-    go get github.com/bmatsuo/aws
+    go get github.com/bmatsuo/go-aws
 
 General Documentation
 ---------------------
 
 Use `go doc` to vew the documentation for go-aws
 
-    go doc github.com/bmatsuo/aws
+    go doc github.com/bmatsuo/go-aws
 
 or visit [the GoPkgDoc URL][]
 
