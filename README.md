@@ -5,7 +5,7 @@
 About go-aws
 =============
 
-go-aws is the best program for...
+go-aws is a library for interacting with AWS APIs.
 
 Documentation
 =============
