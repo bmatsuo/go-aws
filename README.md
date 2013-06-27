@@ -1,34 +1,16 @@
+[godoc.org]: http://go.pkgdoc.org/github.com/bmatsuo/go-aws/ "godoc.org"
 
-[install go]: http://golang.org/install.html "Install Go"
-[the gopkgdoc url]: http://go.pkgdoc.org/github.com/bmatsuo/go-aws/ "the GoPkgDoc URL"
+Go-aws is a collection of libraries for interacting with AWS APIs.
 
-About go-aws
-=============
-
-go-aws is a library for interacting with AWS APIs.
-
-Documentation
-=============
-
-Prerequisites
--------------
-
-[Install Go][].
-
-Installation
--------------
+Install
+=======
 
     go get github.com/bmatsuo/go-aws
 
-General Documentation
----------------------
+Docs
+----
 
-Use `go doc` to vew the documentation for go-aws
-
-    go doc github.com/bmatsuo/go-aws
-
-or visit [the GoPkgDoc URL][]
-
+on [godoc.org][]
 
 Author
 ======
