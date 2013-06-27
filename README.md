@@ -8,7 +8,7 @@ Install
     go get github.com/bmatsuo/go-aws
 
 Docs
-----
+====
 
 on [godoc.org][]
 
